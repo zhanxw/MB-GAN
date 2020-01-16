@@ -19,7 +19,7 @@ points(real.nmds$points[, 1], real.nmds$points[, 2], pch=20, col = "blue")
 points(wgan.nmds$points[, 1], wgan.nmds$points[, 2], pch=20, col = alpha(rgb(1,0,0,0.5), 0.3))
 # add legend
 legend("bottomright", 
-       legend=c("Real data","WGAN","NorTA"), 
+       legend=c("Real data","MB-GAN","NorTA"), 
        col=c("blue",rgb(1,0,0,0.5),rgb(0,1,0,0.5)), pch=20,
        cex = 0.8,bty = "n")
 
@@ -40,7 +40,7 @@ points(real.nmds.ctrl$points[, 1], real.nmds.ctrl$points[, 2], pch=20, col = "bl
 points(wgan.nmds.ctrl$points[, 1], wgan.nmds.ctrl$points[, 2] , pch=20, col = alpha(rgb(1,0,0,0.5), 0.3))
 # add legend
 legend("bottomright", 
-       legend=c("Real data","WGAN","NorTA"), 
+       legend=c("Real data","MB-GAN","NorTA"), 
        col=c("blue",rgb(1,0,0,0.5),rgb(0,1,0,0.5)), pch=20,
        cex = 0.8,bty = "n")
 
