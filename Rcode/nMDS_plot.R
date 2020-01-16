@@ -1,6 +1,6 @@
 library(scales)
 # MDS plot #
-setwd("~/Google Drive/NetworkMicrobiom/DeepLearningSimuMicrobiome/Data")
+setwd("../data")
 #load results from biohpc #
 load("MDSoutput_update_v1.Rdata")
 
