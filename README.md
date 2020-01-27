@@ -32,7 +32,19 @@ The folder “Rcode” includes the following R scripts:
     `Rdata`
   - Code for reproducing the figures in the manuscript
 
+##### Python code
+
+The root folder includes the following Python scripts:
+
+  - `mbgan_train_demo.py`: codes to train a MB-GAN network
+  - `mbgan_inference_casectrl.py`: codes to simulate new microbiome 
+    abundances using trained model parameters
+  
 ## Contact
 
-Xiaowei Zhan <xiaowei.zhan@utsouthwestern.edu>, Quantitative Biomedical
-Research Center, UT Southwestern Medical Center, Dallas, TX 75390-8821
+Xiaowei Zhan <xiaowei.zhan@utsouthwestern.edu>, 
+Quantitative Biomedical Research Center, 
+Center for the Genetics of Host Defence,
+Department of Population and Data Sciences,
+UT Southwestern Medical Center, 
+Dallas, TX 75390-8821
