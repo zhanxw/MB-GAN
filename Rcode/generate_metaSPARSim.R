@@ -1,4 +1,6 @@
-# note: generate simulated data by metaSPARSimn  #
+# note: generate simulated data by metaSPARSimn; 
+#       metaSPARSimn only generates the dataset with the same size as the input dataset;
+#       Need to run the script multiple times to collect enough samples
 library(metaSPARSim)
 library(GMPR)
 
@@ -28,7 +30,7 @@ for(jj in 1:ncol(otu_species1)){
 metaSPARSim.para = estimate_parameter_from_data( round(otu_species1/10000), gmpr.norm.data, condition.list1)
 names(metaSPARSim.para) = names(condition.list)
 
-# simulate data #
+# simulate data by metaSPARSim #
 sim_data = metaSPARSim(metaSPARSim.para)
 
 # process the count matrix and get the compositional data #
