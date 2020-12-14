@@ -26,7 +26,7 @@ The folder “data” contains:
   - The processed data used to generate figures and tables in the
     manuscript
 
-##### R code
+##### R codes
 
 The folder “Rcode” includes the following R scripts:
 
@@ -50,9 +50,9 @@ The folder “Rcode” includes the following R scripts:
   - `generate_abundance_heatmap.R`: Compare the abundances of the top 60 most abundant taxa across different datasets
 
 
-The folder “Rcode_smalldataset” includes the similar R code as above for the small microbiome dataset dicussed in the supplement
+The folder “Rcode_smalldataset” includes the similar R codes as above for the small microbiome dataset dicussed in the supplement.
 
-##### Python code
+##### Python codes
 
 The root folder includes the following Python scripts:
 
@@ -60,25 +60,24 @@ The root folder includes the following Python scripts:
   - `mbgan_inference_casectrl.py`: codes to simulate new microbiome 
     abundances using trained model parameters
     
+The folder "code_check_convergence" includes Python scripts to validate the model convergence.
+
+The folder "models" includes the trained model weights.
+
+The folder "outputs" includes simulation outputs.
     
-The folder "models_smaller_dataset" includes the following Python scripts:
+The folder "models_smaller_dataset" includes the following Python scripts (similar to above):
 
   - `inference_case_ctrl.py`: codes to simulate new microbiome 
     abundances for the smaller microbiome dataset using trained model parameters
 
-##### Python code
 
-The root folder includes the following Python scripts:
 
-  - `mbgan_train_demo.py`: codes to train a MB-GAN network
-  - `mbgan_inference_casectrl.py`: codes to simulate new microbiome 
-    abundances using trained model parameters
-  
 ## Contact
 
-Xiaowei Zhan <xiaowei.zhan@utsouthwestern.edu>, 
-Quantitative Biomedical Research Center, 
-Center for the Genetics of Host Defence,
-Department of Population and Data Sciences,
-UT Southwestern Medical Center, 
+Xiaowei Zhan <xiaowei.zhan@utsouthwestern.edu>
+Quantitative Biomedical Research Center
+Center for the Genetics of Host Defence
+Department of Population and Data Sciences
+UT Southwestern Medical Center
 Dallas, TX 75390-8821
