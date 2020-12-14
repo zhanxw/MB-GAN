@@ -45,7 +45,7 @@ The folder “Rcode” includes the following R scripts:
   
   - `check_second_level_property.R`: Compare differential abundance analysis results based on the real microbiome and MBGAN simulated samples
   
-  - `MiRKAT_simulation.R` and `MiRKAT_result_summary.R`: Implement MiRKAT using MBGAN samples
+  - `MiRKAT_simulation.R` and `MiRKAT_result_summary.R`: Implement MiRKAT-based MWAS using MBGAN-simulated samples
   
   - `generate_abundance_heatmap.R`: Compare the abundances of the top 60 most abundant taxa across different datasets
 
@@ -76,8 +76,13 @@ The folder "models_smaller_dataset" includes the following Python scripts (simil
 ## Contact
 
 Xiaowei Zhan <xiaowei.zhan@utsouthwestern.edu>
+
 Quantitative Biomedical Research Center
+
 Center for the Genetics of Host Defence
+
 Department of Population and Data Sciences
+
 UT Southwestern Medical Center
+
 Dallas, TX 75390-8821
