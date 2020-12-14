@@ -50,7 +50,7 @@ The folder “Rcode” includes the following R scripts:
   - `generate_abundance_heatmap.R`: Compare the abundances of the top 60 most abundant taxa across different datasets
 
 
-The folder “Rcode_smalldataset” includes the similar R codes as above for the small microbiome dataset dicussed in the supplement.
+The folder “Rcode_smalldataset” includes the similar R codes as above for a small microbiome dataset dicussed in the supplement.
 
 ##### Python codes
 
@@ -69,7 +69,7 @@ The folder "outputs" includes simulation outputs.
 The folder "models_smaller_dataset" includes the following Python scripts (similar to above):
 
   - `inference_case_ctrl.py`: codes to simulate new microbiome 
-    abundances for the smaller microbiome dataset using trained model parameters
+    abundances for a smaller microbiome dataset using trained model parameters
 
 
 
