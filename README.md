@@ -43,7 +43,7 @@ The folder “Rcode” includes the following R scripts:
   
   - `check_second_level_property.R`: Compare taxa-taxa associations using correlation structure and proportionality 
   
-  - `check_second_level_property.R`: Compare differential abundance analysis results based on the real microbiome and MBGAN simulated samples
+  - `mbgan_application_supp15.R`: Compare differential abundance analysis results based on the real microbiome and MBGAN simulated samples
   
   - `MiRKAT_simulation.R` and `MiRKAT_result_summary.R`: Implement MiRKAT-based MWAS using MBGAN-simulated samples
   
